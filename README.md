@@ -25,3 +25,5 @@ Developed by and sponsored by facebook.
     - Historically used for simpler "dumb" components.
     - Write logic in js function.
     - No render method is used.
+
+## Props

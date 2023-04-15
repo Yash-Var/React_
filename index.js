@@ -1,7 +1,13 @@
 class Welcome extends React.Component {
   render() {
-    return <h1>Hello</h1>;
+    return (
+      <div>
+        <h1>Hello</h1>
+        <Machine first="yash " second="yash" third="yash" />
+        <Machine first="manvi" second="manvi" third="manvi" />
+      </div>
+    );
   }
 }
-
-ReactDOM.render(<Welcome />, document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Welcome />);
